@@ -2,7 +2,6 @@
   <img height="400px" src="fence.png">
 </p>
 <p align="center">
-  <a href="https://discord.js.org/#/"><img height="50px" style="padding-left:20px; padding-right:20px;"src="https://camo.githubusercontent.com/40129aa4640399b5e65cc3c101361a6a0b5d6467/68747470733a2f2f646973636f72642e6a732e6f72672f7374617469632f6c6f676f2e737667"></a>
   <a href="nodejs.org"><img height="50px" style="padding-left:20px; padding-right:20px;"src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"></a>
   <a href="discord.com"><img height="50px" style="padding-left:20px; padding-right:20px;"src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg"></a>
 </p>
