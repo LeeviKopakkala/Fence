@@ -14,3 +14,7 @@
 > **Note:** Fence is under development.
 
 Fence is a Discord Bot framework running on Node.JS using Discord.JS.
+
+To:
+- Create custom Discord Bots faster
+- To skip the startup hassle
