@@ -1,7 +1,7 @@
 <p align="center">
   <img height="400px" src="fence.png">
 </p>
-<p align="left">
+<p align="right">
   <img height="75px" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </p>
 
