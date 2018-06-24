@@ -2,9 +2,8 @@
   <img height="400px" src="fence.png">
 </p>
 <p align="center">
-  <a href="github.com"><img height="50px" style="padding-left:20px; padding-right:20px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png"></a>
-  <a href="nodejs.org"><img height="50px" style="padding-left:20px; padding-right:20px;"src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"></a>
-  <a href="discord.com"><img height="50px" style="padding-left:20px; padding-right:20px;"src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg"></a>
+  <a href="nodejs.org"><img height="50px" style="padding-left:40px; padding-right:40px;"src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"></a>
+  <a href="discord.com"><img height="50px" style="padding-left:40px; padding-right:40px;"src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg"></a>
 </p>
 <hr>
 
