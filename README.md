@@ -9,6 +9,10 @@
 
 # Fence - A Discord Bot Framework
 
++ https://discordapp.com/developers/docs/intro
++ https://discord.js.org/#/
++ https://nodejs.org/en/
+
 ## About Fence
 
 > **Note:** Fence is under development.
