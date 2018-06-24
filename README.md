@@ -7,7 +7,9 @@
 </p>
 <hr>
 
-[![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development" alt="Build Status"></a>
+</p>
 
 <hr>
 
