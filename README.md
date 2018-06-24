@@ -6,7 +6,7 @@
 
 # Fence - A Discord Bot
 
-## About Laravel
+## About Fence
 
 > **Note:** Fence is under development.
 
