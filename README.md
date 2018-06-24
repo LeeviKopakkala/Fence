@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)
 
-# Fence - A Discord Bot
+# Fence - A Discord Bot Framework
 
 ## About Fence
 
