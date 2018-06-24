@@ -8,7 +8,7 @@
 [![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)
 
 <p align="left">
-  <img height="200px" src="fencecode.png">
+  <img height="125px" src="fencecode.png">
 </p>
 
 # Fence - A Discord Bot Framework
