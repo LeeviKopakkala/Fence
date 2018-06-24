@@ -1,6 +1,4 @@
 language: node_js
 install: true
-node_js:
-  - "10"
 script:
   - node Fence.js
