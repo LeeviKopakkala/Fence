@@ -1,4 +1,5 @@
 <p align="center">
+<<<<<<< HEAD
   <img height="400px" src="fence.png">
 </p>
 
@@ -13,3 +14,7 @@
 Fence is a Discord Bot framework running on Node.JS using Discord.JS.
 
 
+=======
+  <img height="500px" src="fence.png">
+</p>
+>>>>>>> development
