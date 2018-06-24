@@ -16,6 +16,8 @@
 + https://discord.js.org/#/
 + https://nodejs.org/en/
 
+<hr>
+
 <p align="left">
   <img height="100px" src="fencecode.png">
 </p>
