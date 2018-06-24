@@ -8,7 +8,7 @@
 <hr>
 
 <p align="center">
-<a href=""><img src="https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development" alt="Build Status"></a>
+<a href="https://travis-ci.org/"><img src="https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development" alt="Build Status"></a>
 </p>
 
 <hr>
