@@ -8,18 +8,13 @@ client.on("message", async message => {
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
  
-    // Regular commands
+  // Helper commands
+  if(command === "help"){
+      message.channel.send("Helper command")
+  }
 
-  if(command === "mammamia") {
-    const sayMessage = args.join(" ");
-    message.delete().catch(O_o=>{}); 
-    message.channel.send("https://www.youtube.com/watch?v=unfzfe8f9NI");  
-  }
-  
-  if(command === "say") {
-    const sayMessage = args.join(" ");
-    message.delete().catch(O_o=>{}); 
-    message.channel.send(sayMessage);
-  }
+  if(command === "whoami"){
+    message.channel.send("I'm a Discord Bot running on Fence Discord Bot Framework")
+}
 
 });
