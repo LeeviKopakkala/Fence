@@ -11,8 +11,3 @@
 > **Note:** Fence is under development.
 
 Fence is a Discord Bot framework running on Node.JS using Discord.JS.
-
-
-=======
-  <img height="500px" src="fence.png">
-</p>
