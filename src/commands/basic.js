@@ -1,4 +1,4 @@
-client.on("message", async message => {
+fence.on("message", async message => {
     // This event will run on every single message received, from any channel or DM.
     //Ignore other bots
     if(message.author.bot) return;

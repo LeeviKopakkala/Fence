@@ -2,13 +2,13 @@
 // Load up the discord.js library
 global.Discord = require("discord.js");
 
-global.client = new Discord.Client();
+global.fence = new Discord.client();
 config = require("./config.json");
 
 // Startup function
-client.on("ready", () => {
+fence.on("ready", () => {
   console.log('Fence has started'); 
-  client.user.setActivity(`Fence - A Discord Bot Framework`);
+  fence.user.setActivity(`Fence - A Discord Bot Framework`);
 });
 
 // Commands
@@ -16,5 +16,5 @@ require("./src/commands/admin.js");
 require("./src/commands/basic.js");
 require("./src/commands/helpers.js");
 
-client.login(config.token);
+fence.login(config.token);
            
