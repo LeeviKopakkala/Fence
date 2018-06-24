@@ -2,7 +2,7 @@
 // Load up the discord.js library
 global.Discord = require("discord.js");
 
-global.fence = new Discord.client();
+global.fence = new Discord.Client();
 config = require("./config.json");
 
 // Startup function
