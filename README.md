@@ -7,7 +7,7 @@
 </p>
 <hr>
 
-<p> Build status: [![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)</p>
+[![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)
 
 <hr>
 
@@ -32,3 +32,4 @@ Fence is a Discord Bot framework running on Node.JS using Discord.JS.
 To:
 - Create custom Discord Bots faster
 - To skip the startup hassle
+>>
