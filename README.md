@@ -2,6 +2,7 @@
   <img height="400px" src="fence.png">
 </p>
 <p align="right">
+  <img height="75px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png">
   <img height="75px" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </p>
 <hr>
@@ -18,8 +19,8 @@
 
 <hr>
 
-<p align="left">
-  <img height="100px" src="fencecode.png">
+<p align="center">
+  <img height="100px" style="padding-left:20px; padding-right:20px;" src="fencecode.png">
 </p>
 
 ## About Fence
