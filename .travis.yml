@@ -2,3 +2,5 @@ language: node_js
 install: true
 node_js:
   - "10"
+script:
+  - echo "Build success"
