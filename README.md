@@ -4,8 +4,9 @@
 <p align="right">
   <img height="75px" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </p>
-
+<hr>
 [![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)
+<hr>
 
 # Fence - A Discord Bot Framework
 
