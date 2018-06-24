@@ -7,7 +7,7 @@
 </p>
 <hr>
 
-[![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)
+<p> Build status: [![Build Status](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)](https://travis-ci.org/LeeviKopakkala/Fence.svg?branch=development)</p>
 
 <hr>
 
