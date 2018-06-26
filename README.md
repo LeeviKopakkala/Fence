@@ -34,7 +34,7 @@ Fence is a Discord Bot framework running on Node.JS using Discord.JS.
 # Basic installation 
 (Follow these steps to start creating your own bot from scratch without any prior knowledge!)
 
-### What you need?
+### Useful stuff: 
 
 Install git: https://git-scm.com/downloads
 This comes with really handy tool: git bash!
