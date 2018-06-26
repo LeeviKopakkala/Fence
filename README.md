@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="50%" src="fencenew.png">
+  <img height="300px" src="fencenew.png">
 </p>
 <p align="center">
   <a href="nodejs.org"><img height="50px" style="padding-left:40px; padding-right:40px;"src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"></a>
