@@ -3,7 +3,12 @@
 global.Discord = require("discord.js");
 
 global.fence = new Discord.Client();
-config = require("./config.json");
+
+// Basic bot configuration from your Discord App -> Bot
+config = require(".config/config.json");
+
+// Customize your bot
+botconfig = require(".config/botconfig.json");
 
 // Startup function
 fence.on("ready", () => {

@@ -8,13 +8,12 @@ fence.on("message", async message => {
     const args = message.content.slice(botconfig.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
  
-  // Helper commands
-  if(command === "help"){
-      message.channel.send("Helper command")
+    // Regular commands
+  if(command === "allow") {
+    const sayMessage = args.join(" ");
+    message.delete().catch(O_o=>{}); 
+    message.channel.send("https://www.youtube.com/watch?v=unfzfe8f9NI");  
   }
-
-  if(command === "whoami"){
-    message.channel.send("I'm a Discord Bot running on Fence Discord Bot Framework")
-}
+  
 
 });
