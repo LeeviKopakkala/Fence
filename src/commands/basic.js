@@ -3,13 +3,12 @@ fence.on("message", async message => {
     //Ignore other bots
     if(message.author.bot) return;
     // Ignore !commands
-    if(message.content.indexOf(config.prefix) !== 0) return;
+    if(message.content.indexOf(botconfig.prefix) !== 0) return;
 
-    const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+    const args = message.content.slice(botconfig.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
  
     // Regular commands
-
   if(command === "mammamia") {
     const sayMessage = args.join(" ");
     message.delete().catch(O_o=>{}); 

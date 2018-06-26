@@ -1,26 +1,27 @@
 fence.on("message", async message => {
-    // This event will run on every single message received, from any channel or DM.
     //Ignore other bots
-    if(message.author.bot) return;
+    if(message.author.bot){
+        return;
+    } 
     // Ignore non-commands
-    if(message.content.indexOf(config.prefix) !== 0) return;
+    if(message.content.indexOf(botconfig.prefix) !== 0){
+        return;
+    } 
 
-    const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+    const args = message.content.slice(botconfig.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
     // Admin commands
     if(message.member.roles.some(r=>["Admin", "Moderator", "Server Admin", "Mod"].includes(r.name)) ){
 
         if(command === "clear") {
-            // This command removes all messages from all users in the channel, up to 100.  
-            // get the delete count, as an actual number.
+            // Clear chat
             const deleteCount = parseInt(args[0], 10);
-        
-            // Ooooh nice, combined conditions. <3
-            if(!deleteCount || deleteCount < 2 || deleteCount > 100)
-            return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
-        
-            // So we get our messages, and delete them. Simple enough, right?
+
+            if(!deleteCount || deleteCount < 2 || deleteCount > 100){
+                return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
+            }
+
             const fetched = await message.channel.fetchMessages({limit: deleteCount});
             message.channel.bulkDelete(fetched)
             .catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
