@@ -22,7 +22,7 @@
 <hr>
 
 <p align="left">
-  <img height="100px" src="fencecode.png">
+  <img height="100px" src="./Media/fencecode.png">
 </p>
 
 ## About Fence
