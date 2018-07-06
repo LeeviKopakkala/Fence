@@ -4,11 +4,11 @@ fence.on("message", async message => {
         return;
     } 
     // Ignore non-commands
-    if(message.content.indexOf(botconfig.prefix) !== 0){
+    if(message.content.indexOf(prefix) !== 0){
         return;
     } 
 
-    const args = message.content.slice(botconfig.prefix.length).trim().split(/ +/g);
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
     // Admin commands

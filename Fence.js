@@ -1,3 +1,5 @@
+var config = require('config-json')
+config.setBaseDir('./config');
 
 // Load up the discord.js library
 global.Discord = require("discord.js");
@@ -5,10 +7,9 @@ global.Discord = require("discord.js");
 global.fence = new Discord.Client();
 
 // Basic bot configuration from your Discord App -> Bot
-config = require(".config/config.json");
+config.load("config.json");
 
 // Customize your bot
-botconfig = require(".config/botconfig.json");
 
 // Startup function
 fence.on("ready", () => {
@@ -16,10 +17,15 @@ fence.on("ready", () => {
   fence.user.setActivity(`Fence - A Discord Bot Framework`);
 });
 
+global.token = config.get('token');
+global.prefix = config.get('prefix');
+console.log(prefix);
+
 // Commands
 require("./src/commands/admin.js");
 require("./src/commands/basic.js");
 require("./src/commands/helpers.js");
 
-fence.login(config.token);
+
+fence.login(token);
            

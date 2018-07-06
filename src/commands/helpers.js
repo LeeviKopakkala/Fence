@@ -3,9 +3,9 @@ fence.on("message", async message => {
     //Ignore other bots
     if(message.author.bot) return;
     // Ignore !commands
-    if(message.content.indexOf(botconfig.prefix) !== 0) return;
+    if(message.content.indexOf(prefix) !== 0) return;
 
-    const args = message.content.slice(botconfig.prefix.length).trim().split(/ +/g);
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
  
   // Helper commands
