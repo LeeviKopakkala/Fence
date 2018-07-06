@@ -17,7 +17,7 @@ fence.on("ready", () => {
   fence.user.setActivity(`Fence - A Discord Bot Framework`);
 });
 
-global.token = config.get('token');
+var token = config.get('token');
 global.prefix = config.get('prefix');
 console.log(prefix);
 
