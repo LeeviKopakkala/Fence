@@ -19,13 +19,18 @@ fence.on("ready", () => {
 
 var token = config.get('token');
 global.prefix = config.get('prefix');
-console.log(prefix);
 
 // Commands
 require("./src/commands/admin.js");
 require("./src/commands/basic.js");
 require("./src/commands/helpers.js");
+require("./src/commands/loop.js");
+
+// Bot
+require("./src/commands/bot.js");
 
 
 fence.login(token);
+
+
            
